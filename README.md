@@ -1,37 +1,84 @@
-## Welcome to GitHub Pages
+# Mateus Gomes
+**Senior Software Engineer / Team Lead**
 
-You can use the [editor on GitHub](https://github.com/mateusgms/mateusgms.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+📍Águas Claras, Distrito Federal, Brazil
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Overview
+With a passion for programming and perpetual learning, I have accumulated 7 years of experience and studies, transitioning between Frontend and Backend roles. I have juggled my own projects as well as private ones, always focusing on my personal development and the growth of the business. I have served as a Backend Developer utilizing JavaScript, Typescript, Java, and Golang. Additionally, I have also worked as a Frontend Developer employing tools like Angular, Nxjs, Stenciljs, React Native, and have had some experience with Cloud platforms and CI/CD like AWS, GCP, GitlabCI, Prometheus, Grafana.
 
-### Markdown
+## Contact
+- Email: [mtsgomesp@gmail.com](mailto:mtsgomesp@gmail.com)
+- [LinkedIn](https://www.linkedin.com/in/mateusgms)
+- [GitHub](https://github.com/mateusgms)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Key Skills
+- Amazon S3
+- Amazon EC2
+- TypeScript
 
-```markdown
-Syntax highlighted code block
+## Languages
+- English (Professional Working)
+- Spanish (Full Professional)
 
-# Header 1
-## Header 2
-### Header 3
+## Certifications
+- Java and Object Orientation Course
+- Practice Development with Spring, Tests, Git, and Maven Course
+- RxJs
+- Persistence with JPA, Hibernate, and EJB lite Course
+- Secure Application Architecture & IAM
 
-- Bulleted
-- List
+## Work Experience
 
-1. Numbered
-2. List
+### Kintsu
+**Senior Software Engineer**  
+March 2023 - Present (4 months)  
+São Paulo, Brazil  
 
-**Bold** and _Italic_ and `Code` text
+### Accenture Brasil
+**Consultant Team Lead**  
+December 2021 - March 2023 (1 year 4 months)  
+Brazil
 
-[Link](url) and ![Image](src)
-```
+### Konker Labs
+**Frontend Developer**  
+May 2021 - December 2021 (8 months)  
+São Paulo, Brazil  
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Inmetrics
+**FrontEnd Developer**  
+May 2021 - December 2021 (8 months)  
+São Paulo, Brazil  
 
-### Jekyll Themes
+### SdBusiness
+**NodeJs Developer**  
+November 2020 - May 2021 (7 months)  
+Brasília, Distrito Federal, Brazil  
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mateusgms/mateusgms.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### CLIk | Brasil
+**Full-stack Developer and Founder**  
+January 2017 - February 2020 (3 years 2 months)  
+Brasília e Região, Brazil  
 
-### Support or Contact
+### Embrapa
+**Software Engineering Intern**  
+November 2015 - September 2016 (11 months)  
+Brasília e Região, Brazil  
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### FUNAP
+**Technical Advisor**  
+September 2013 - November 2014 (1 year 3 months)  
+Brasília e Região, Brazil  
+
+### CAESB - Companhia de Saneamento Ambiental do Distrito Federal
+**Intern**  
+January 2011 - December 2011 (1 year)  
+Brasília e Região, Brazil  
+
+## Education
+- IESB  
+Technology, System Analysis and Development (2015 - 2018)  
+
+- Senac Brasil  
+Technical Education, Accounting (2011 - 2013)
+
+If you would like more specific details about my experiences at each role, feel free to contact me directly.
