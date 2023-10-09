@@ -21,7 +21,7 @@
     }
 
     .bg-primary {
-      background-color: #007bff;
+      background-color: #064d00;
       color: #fff;
     }
 
@@ -161,15 +161,6 @@
     </div>
   </section>
 
-  <!-- Footer -->
-  <footer class="py-3 bg-primary">
-    <div class="container">
-      <p class="text-center text-white mb-0">
-        Copyright &copy; 2023 John Doe
-      </p>
-    </div>
-  </footer>
-
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
@@ -184,7 +175,3 @@
       });
     });
   </script>
-
-
-
-</html>
