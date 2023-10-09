@@ -21,7 +21,7 @@
     }
 
     .bg-primary {
-      background-color: #064d00;
+      background-color: ##004201;
       color: #fff;
     }
 
