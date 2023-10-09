@@ -1,1 +1,43 @@
-theme: jekyll-theme-cayman
+# Site settings
+title: Mateus Gomes
+description: My portfolio
+baseurl: "" 
+url: "https://mateusgomes.dev"
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Defaults
+defaults:
+  - 
+    scope:
+      path: "" 
+    values:
+      layout: "default"
+
+# Collections
+collections:
+  posts:
+    output: true
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - .gitignore
