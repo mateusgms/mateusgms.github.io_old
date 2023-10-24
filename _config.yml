@@ -1,12 +1,16 @@
 # Site settings
 title: Mateus Gomes
-description: My portfolio
+description: Senior Software Engineer
 baseurl: "" 
 url: "https://mateusgomes.dev"
-
+email: mateus@mateusgomes.dev
+author: Mateus Gomes
 # Build settings
 markdown: kramdown
+locale: "en-US"
 remote_theme: raviriley/agency-jekyll-theme
+analytics:
+  google: G-TX1P3VPGJH
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
@@ -21,8 +25,8 @@ defaults:
 
 # Collections
 collections:
-  posts:
-    output: true
+  portfolio:
+
 
 # Sass/SCSS
 sass:
