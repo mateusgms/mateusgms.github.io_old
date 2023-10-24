@@ -7,185 +7,379 @@
 # How to use:
 # {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
 
-# English
+# English (default)
+# -----------------
 en: &DEFAULT_EN
-
   header:
-    title: Welcome to João's Profile!
+    title: Welcome to mateus's Profile!
     text: Nice to meet you
-    button: Learn More
+    button: More about me
     buttonlink: "#about"
 
-  about:
-    title: About Me
-    text: my story
-    body: |
-      I'm a senior software engineer with over 7 years of experience building full-stack web apps and robust APIs. I've specialized in Javascript, Typescript, Java, Golang and frameworks like React, Angular and Vue.
-
-      I continuously seek to improve my technical and leadership skills. I'm a creative problem-solver, working well in teams or independently.
-
-      My goals are to expand my skills as a software engineer and take on technical leadership positions. I look for companies that value continuous growth and collaboration.
-    section: about
-
-  skills:
-    title: Skills
-    section: skills
-
+  services:
+    title: "Services"
+    text: "As Software Developer a had make diference on all projects that I worked"
+    section: services
     list:
-      - title: Javascript
-        icon: fab fa-js
-      - title: Typescript
-        icon: fab fa-typo3
-      - title: React
-        icon: fab fa-react
-      - title: Angular
-        icon: fab fa-angular
-      - title: Vue.js
-        icon: fab fa-vuejs
-      - title: Node.js
-        icon: fab fa-node
-      - title: GraphQL
-        icon: fab fa-graphql
-      - title: AWS
-        icon: fab fa-aws
+      - title: "Web Development"
+        desc: "I specialize in building custom web applications using modern JavaScript frameworks like React, Angular, and Vue.js. I can deliver full-stack solutions from concept to launch."
+        icon: fas fa-code 
+      - title: "API and Backend"
+        desc: "I have extensive experience with Node.js, Java, and Golang for developing scalable REST APIs and microservices. I can integrate your frontend with robust and secure backend systems."
+        icon: fas fa-server
+      - title: "Cloud Architecture"
+        desc: "I design cloud-based solutions leveraging AWS, GCP and other platforms. I focus on best practices for reliability, performance, and cost optimization"
+        icon: fas fa-cloud
 
-  experience:
-    title: Experience
-    section: experience
+  portfolio:
+    title: "Portfolio"
+    text: "About my experiences and projects that I worked."
+    section: portfolio
+    closebutton: "Close Project"
 
-    list:
+  timeline:
+    title: "Timeline"
+    text: "Lorem ipsum timeline"
+    section: timeline
+    # left is the default
+    #start_align: "left"
+    events:
       - title: Senior Full-stack Developer
+        year: Feb 2023 - Present 
         company: Kintsu
-        period: Feb 2023 - Present
-        desc: |
-          Developing health tech startup platform using Typescript, Express, Vue, AWS. Leading full development lifecycle end-to-end.
-
-      - title: Full-stack Developer  
-        company: Accenture
-        period: Dec 2021 - Mar 2023
-        desc: |
-          Developing white-label financial apps using Angular, Java, GraphQL. Leading improvements to architecture and coding standards.
+        image: assets/images/kintsu.png
+        alt: Kintsu company logo
+        desc: Developing health tech startup platform using Typescript, Express, Vue, AWS.
 
       - title: Full-stack Developer
+        year: Dec 2021 - Mar 2023
+        company: Accenture
+        image: assets/images/accenture.png 
+        alt: Accenture company logo
+        desc: Developing white-label financial apps using Angular, Java, GraphQL.
+
+      - title: Full-stack Developer
+        year: May 2021 - Dec 2021
         company: Konker Labs
-        period: May 2021 - Dec 2021
-        desc: |  
-          Worked on a security analytics platform using Golang, Angular, AWS. Responsible for evolving platform to meet dynamic customer needs.
+        image: assets/images/konkerlabs.png
+        alt: Konker Labs company logo
+        desc: Worked on a security analytics platform using Golang, Angular, AWS.
 
-  projects:
-    title: Projects
-    section: projects
+      - title: Full-stack Developer
+        year: Nov 2020 - May 2021
+        company: SdBusiness 
+        image: assets/images/sdbusiness.png
+        alt: SdBusiness company logo
+        desc: Developed web app components using Angular, RxJs, Material.
 
+      - title: Full-stack Developer & Founder
+        year: Jan 2017 - Feb 2020
+        company: CLIK | BRASIL
+        image: assets/images/clikbrasil.png
+        alt: CLIK Brasil company logo
+        desc: Worked on MVPs and desktop software using Java, JavaScript, React.
+
+      - title: Intern
+        year: Nov 2015 - Sep 2016
+        company: Embrapa
+        image: assets/images/embrapa.png
+        alt: Embrapa company logo
+        desc: Worked on e-commerce platform using Java and Spring
+
+        # you can enforce the alignment
+        align: right
+    end: "Be Part <br> of Our <br> Story!"
+
+  about:
+    title: "About Me"
+    text: "My story"
+    image: assets/images/profile.png
+    alt: Mateus Gomes
+    body: |
+      I'm a senior software engineer with over 7 years of experience developing web and mobile applications using JavaScript, TypeScript, React, Angular, Vue.js, Node.js, and other modern technologies.
+      I have a strong technical background and constantly stay up-to-date on the latest frameworks and best practices. I'm comfortable working independently to solve complex problems, as well as collaborating closely with product managers and UX designers to deliver intuitive user experiences.
+      I'm **reliable, detail-oriented**, and have **excellent verbal and written communication skills**. I'm **passionate about software craftsmanship** 🚀 and advocating for technologies that improve developer productivity.
+      Outside of work, I enjoy contributing to open source projects, speaking at meetups and conferences, and helping mentor junior developers through coaching and code reviews. I'm always looking for opportunities to positively impact teams and businesses through technology.
+
+    section: about
+
+  clients:
+    section: clients
+    max-height: 100px
+    horizontal-scrolling: "" #"yes/no"
     list:
-      - title: Job Portal App
-        desc: |
-          Built a job search web app using React and Firebase. Included company profiles, job listings, search and applications.
-          
-      - title: E-Commerce Website
-        desc: |  
-          Designed and developed an e-commerce clothing store with Node.js, MongoDB. Implemented payments, shopping cart and account management.
+      - title: "envato"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/envato.jpg
+      - title: "designmodo"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/designmodo.jpg
+      - title: "themeforest"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/themeforest.jpg
+      - title: "Creative Market"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/creative-market.jpg
+
+  team:
+    title: "OUR AMAZING TEAM"
+    text: "Lorem ipsum dolor sit amet consectetur."
+    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    section: team
+    people:
+      - name: "Kay Garland"
+        role: "Lead Designer"
+        image: assets/img/team/500x500.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Larry Parker"
+        role: "Lead Marketer"
+        image: assets/img/team/2.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Diana Perterson"
+        role: "Lead Developer"
+        image: assets/img/team/500x500.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
 
   contact:
-    title: Contact
+    title: "Contact Us"
+    text: "Lorem ipsum or call 123456789"
     section: contact
+    name: "Name*"
+    name-validation: "Please enter your name."
+    email: "Email*"
+    email-validation: "Please enter your email address."
+    phone: "Phone Number"
+    phone-validation: "Please enter your phone number."
+    message: "Message*"
+    message-validation: "Please enter a message."
+    subject: "Contact Form Submission"
+    submit: "Send Message"
 
+  footer:
+    legal: "Privacy Policy"
     social:
-      - icon: fab fa-linkedin
-        url: https://www.linkedin.com/in/your-linkedin-user  
-      - icon: fab fa-github
-        url: https://github.com/your-github-user
-    
-    email: your@email.com
+      - url: https://twitter.com
+        icon: "fab fa-twitter"
+      - url: https://facebook.com
+        icon: "fab fa-facebook-f"
+      - url: https://linkedin.com
+        icon: "fab fa-linkedin-in"
+      - url: https://github.com/raviriley/agency-jekyll-theme
+        icon: "fab fa-github"
+      - url: https://instagram.com
+        icon: "fab fa-instagram"
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN
 
-# Spanish  
+# Spanish
+# -------
 es: &DEFAULT_ES
-
   header:
-    title: ¡Bienvenido al Perfil de João!
-    text: Encantado de conocerte
-    button: Más Información
-    buttonlink: "#about"
+    title: ¡Bienvenido a nuestro Estudio!
+    text: Es un placer conocerle
+    button: Ver más
+    buttonlink: "#servicios"
 
-  sobre-mi:
-    title: Sobre mí
-    text: mi historia
-    body: |
-      Soy un ingeniero de software senior con más de 7 años de experiencia construyendo aplicaciones web full-stack y APIs robustas. Me he especializado en Javascript, Typescript, Java, Golang y frameworks como React, Angular y Vue.
-
-      Busco mejorar continuamente mis habilidades técnicas y de liderazgo. Soy un solver de problemas creativo, trabajando bien en equipos o de forma independiente. 
-
-      Mis objetivos son expandir mis habilidades como ingeniero de software y asumir posiciones de liderazgo técnico. Busco empresas que valoren el crecimiento continuo y la colaboración.
-    section: sobre-mi
-
-  habilidades:
-    title: Habilidades
-    section: habilidades
+  services:
+    title: "Servicios"
+    text: "Lorem ipsum"
+    section: servicios
 
     list:
-      - title: Javascript
-        icon: fab fa-js
-      - title: Typescript
-        icon: fab fa-typo3
-      - title: React
-        icon: fab fa-react
-      - title: Angular
-        icon: fab fa-angular
-      - title: Vue.js
-        icon: fab fa-vuejs
-      - title: Node.js
-        icon: fab fa-node
-      - title: GraphQL
-        icon: fab fa-graphql
-      - title: AWS
-        icon: fab fa-aws
-
-  experiencia:
-    title: Experiencia
-    section: experiencia
-
-    list:
-      - title: Desarrollador Fullstack Senior 
-        company: Kintsu
-        period: Feb 2023 - Presente
+      - title: Desarrollo Web
+        icon: fas fa-code
         desc: |
-          Desarrollo de una plataforma health tech startup usando Typescript, Express, Vue, AWS. Liderando el ciclo de desarrollo completo.
+          Me especializo en construir aplicaciones web personalizadas usando frameworks modernos de JavaScript como React, Angular y Vue.js. Puedo entregar soluciones full-stack desde la concepción hasta el lanzamiento.
 
-      - title: Desarrollador Fullstack
-        company: Accenture 
-        period: Dic 2021 - Mar 2023
+      - title: API y Backend
+        icon: fas fa-server
         desc: |
-          Desarrollo de aplicaciones financieras white-label usando Angular, Java, GraphQL. Liderando mejoras en la arquitectura y estándares de código.
-          
-      - title: Desarrollador Fullstack
-        company: Konker Labs
-        period: May 2021 - Dic 2021
-        desc: |
-          Trabajé en una plataforma de análisis de seguridad usando Golang, Angular, AWS. Responsable de la evolución de la plataforma para satisfacer las necesidades dinámicas de los clientes.
-
-  proyectos:
-    title: Proyectos
-    section: proyectos
-
-    list:
-      - title: Aplicación Web de Búsqueda de Empleos
-        desc: | 
-          Desarrollé una aplicación web de búsqueda de empleos usando React y Firebase. Incluía perfiles de empresas, ofertas de trabajo, búsqueda y postulaciones.
-          
-      - title: Sitio de Comercio Electrónico
-        desc: |
-          Diseñé y desarrollé una tienda de ropa en línea con Node.js y MongoDB. Implementé pagos, carrito de compras y administración de cuentas.
-
-  contacto:
-    title: Contacto
-    section: contacto
-
-    social:
-      - icon: fab fa-linkedin
-        url: https://www.linkedin.com/in/your-linkedin-user  
-      - icon: fab fa-github
-        url: https://github.com/your-github-user
+          Tengo amplia experiencia con Node.js, Java y Golang para el desarrollo de APIs REST escalables y microservicios. Puedo integrar su frontend con sistemas backend robustos y seguros.
     
-    email: your@email.com
+      - title: Arquitectura en la Nube
+        icon: fas fa-cloud
+        desc: |
+          Diseño soluciones en la nube aprovechando AWS, GCP y otras plataformas. Me enfoco en las mejores prácticas de confiabilidad, rendimiento y optimización de costos.
+        icon: fab fa-markdown
 
+  portfolio:
+    title: "Portafolio"
+    text: "Lorem ipsum dolor sit amet consectetur."
+    section: portafolio
+    closebutton: "Cerrar Proyecto"
+
+  timeline:
+    title: "Cronología"
+    text: "Lorem ipsum timeline"
+    section: cronologia
+    # left is the default
+    #start_align: "left"
+    events:
+      - title: Desarrollador Fullstack Senior
+        year: Feb 2023 - Presente
+        company: Kintsu
+        image: assets/images/kintsu.png
+        alt: Logo de Kintsu
+        desc: Desarrollo de una plataforma health tech startup usando Typescript, Express, Vue, AWS.
+
+      - title: Desarrollador Fullstack
+        year: Dic 2021 - Mar 2023
+        company: Accenture
+        image: assets/images/accenture.png
+        alt: Logo de Accenture
+        desc: Desarrollo de aplicaciones financieras white-label usando Angular, Java, GraphQL.
+
+      - title: Desarrollador Fullstack
+        year: May 2021 - Dic 2021
+        company: Konker Labs
+        image: assets/images/konkerlabs.png
+        alt: Logo de Konker Labs
+        desc: Trabajé en una plataforma de análisis de seguridad usando Golang, Angular, AWS.
+
+      - title: Desarrollador Fullstack  
+        year: Nov 2020 - May 2021
+        company: SdBusiness
+        image: assets/images/sdbusiness.png
+        alt: Logo de SdBusiness
+        desc: Desarrollé componentes de aplicaciones web usando Angular, RxJs, Material.
+
+      - title: Desarrollador Fullstack y Fundador
+        year: Ene 2017 - Feb 2020
+        company: CLIK | BRASIL
+        image: assets/images/clikbrasil.png
+        alt: Logo de CLIK Brasil
+        desc: Trabajé en MVPs y software de escritorio usando Java, JavaScript, React.
+
+      - title: Pasantía 
+        year: Nov 2015 - Sep 2016
+        company: Embrapa
+        image: assets/images/embrapa.png
+        alt: Logo de Embrapa
+        desc: Trabajé en plataforma de comercio electrónico usando Java y Spring.
+        # you can enforce the alignment
+        align: right
+    end: "¡Se parte <br> de Nuestra <br> Historia!"
+
+  about:
+    title: "Sobre mí"
+    text: "Mí historia"
+    image: assets/images/profile.png
+    alt: Foto de perfil de Mateus Gomes
+    body: |  
+      Soy un ingeniero de software senior con más de 7 años de experiencia desarrollando aplicaciones web y móviles usando JavaScript, TypeScript, React, Angular, Vue.js, Node.js y otras tecnologías modernas.
+      Poseo una sólida formación técnica y estoy constantemente actualizado en los últimos frameworks y mejores prácticas. Me siento cómodo trabajando de forma independiente para resolver problemas complejos, y también colaborando estrechamente con product managers y UX designers para ofrecer experiencias de usuario intuitivas.
+      Soy **confiable, orientado a los detalles** y poseo **excelentes habilidades de comunicación verbal y escrita**. Soy **apasionado por la artesanía del software** 🚀 y abogo por tecnologías que mejoren la productividad de los desarrolladores. 
+      Fuera del trabajo disfruto contribuir a proyectos open source, dar charlas en meetups y conferencias, y ayudar a mentorear developers juniors a través del coaching y code reviews. Siempre busco oportunidades para impactar positivamente a los equipos y negocios a través de la tecnología.
+    section: nosotros
+
+  clients:
+    section: clientes
+    max-height: 100px
+    horizontal-scrolling: "" #"yes/no"
+    list:
+      - title: "envato"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/envato.jpg
+      - title: "designmodo"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/designmodo.jpg
+      - title: "themeforest"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/themeforest.jpg
+      - title: "Creative Market"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/creative-market.jpg
+
+  team:
+    title: "NUESTRO INCREÍBLE EQUIPO"
+    text: "Lorem ipsum dolor sit amet consectetur."
+    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    section: equipo
+    people:
+      - name: "Kay Garland"
+        role: "Lead Designer"
+        image: assets/img/team/500x500.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Larry Parker"
+        role: "Lead Marketer"
+        image: assets/img/team/2.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Diana Perterson"
+        role: "Lead Developer"
+        image: assets/img/team/500x500.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+
+  contact:
+    title: "Contáctenos"
+    text: "Lorem ipsum or call 123456789"
+    section: contacto
+    name: "Nombre*"
+    name-validation: "Por favor ingrese su nombre."
+    email: "Correo Electrónico*"
+    email-validation: "Por favor ingrese su correo electrónico."
+    phone: "Número Telefónico*"
+    phone-validation: "Por favor ingrese su número telefónico."
+    message: "Mensaje*"
+    message-validation: "Por favor escriba un mensaje."
+    subject: "Envío del formulario de contacto"
+    submit: "Enviar Mensaje"
+
+  footer:
+    legal: "Política de Privacidad"
+    social:
+      - url: https://twitter.com
+        icon: "fab fa-twitter"
+      - url: https://facebook.com
+        icon: "fab fa-facebook-f"
+      - url: https://linkedin.com
+        icon: "fab fa-linkedin-in"
+      - url: https://github.com/raviriley/agency-jekyll-theme
+        icon: "fab fa-github"
+      - url: https://instagram.com
+        icon: "fab fa-instagram"
 es-ES:
+  <<: *DEFAULT_ES
+es-CO:
   <<: *DEFAULT_ES
