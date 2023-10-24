@@ -6,7 +6,7 @@ url: "https://mateusgomes.dev"
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: jekyll-agency
 plugins:
   - jekyll-feed
 
