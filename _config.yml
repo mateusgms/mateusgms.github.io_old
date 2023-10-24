@@ -6,9 +6,10 @@ url: "https://mateusgomes.dev"
 
 # Build settings
 markdown: kramdown
-theme: jekyll-agency
+remote_theme: raviriley/agency-jekyll-theme
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 # Defaults
 defaults:
