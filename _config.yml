@@ -1,22 +1,28 @@
 title: Mateus Gomes
-description: Senior Software Engineer
-baseurl: "" 
+description: >-
+  Senior full-stack developer with over 7 years experience delivering scalable web apps and robust APIs using Javascript, Typescript, React, Node.js and other modern technologies. Led end-to-end projects supporting millions of users. Seeks elegant solutions to complex problems.
+baseurl: "/" 
 url: "https://mateusgomes.dev"
 email: mateus@mateusgomes.dev
 author: Mateus Gomes
-markdown: kramdown
-locale: "en-US"
+lang: en
+timezone: America/Sao_Paulo
+
+# Social media
+twitter_username: mateusgomes_dev
+twitter_image:
+facebook_app_id:
+facebook_image:
+google_analytics: G-TX1P3VPGJH
+comments: false
+
 theme: jekyll-whiteglass
-analytics:
-  google: G-TX1P3VPGJH
 plugins:
   - jekyll-archives
   - jekyll-paginate
   - jekyll-sitemap
 
 permalink: /:year/:month/:day/:title/
-paginate_path: /posts/:num/
-paginate: 5
 
 jekyll-archives:
   enabled:
@@ -27,20 +33,22 @@ jekyll-archives:
     category: /categories/:name/
     tag: /tags/:name/
 
-# Exclude from processing
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-  - .sass-cache/
-  - .jekyll-cache/
-  - gemfiles/
-  - .gitignore
+# jekyll-paginate
+paginate_path: /posts/:num/
+paginate: 5
 
+exclude:
+  - README.md
+
+markdown: kramdown
+excerpt_separator: "<!-- more -->"
+kramdown:
+  auto_ids: false
+  enable_coderay: false
+  entity_output: as_char
+  footnote_nr: 1
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  toc_levels: 1..6
 
 
 
