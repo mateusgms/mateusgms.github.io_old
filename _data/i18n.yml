@@ -14,22 +14,6 @@ en:
   archive-category: "Archive of category '%1'"
   archive-tag: "Archive of tag '%1'"
   comments: "Comments"
-pt-br:
-  date:
-    format: "%-d de %B de %Y"
-    abbr_day_names: ["Dom", "Seg", "Ter", "Quar", "Qui", "Sex", "Sáb"]
-    abbr_month_names: ["Jan", "Fev", "Mar", "Abr", "Mai", "Jun",
-      "Jul", "Ago", "Set", "Out", "Nov", "Dez"]
-    day_names: ["Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado"]
-    month_names: ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho",
-      "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"]
-  morelink: "Leia mais"
-  page-older: "Antigos"
-  page-newer: "Novos"
-  archive: "Arquivo"
-  archive-category: "Arquivo da categoria '%1'"
-  archive-tag: "Arquivo da tag '%1'"
-  comments: "Comentários"
 de:
   date:
     format: "%e. %B %Y"

@@ -1,13 +1,18 @@
 ---
 layout: page
-title: "About"
+title: About
 permalink: /about/
 ---
 
-I'm a senior full-stack developer with over 7 years of experience building scalable web apps and robust APIs using Javascript, Typescript, React, Node.js and other modern technologies.
+This is the whiteglass theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
-I currently work at Kintsu, where I develop a health tech platform using Typescript, Express, Vue.js and AWS services. Previously at Accenture, I worked on white-label financial apps built with Java, Angular and a microservices architecture.
+You can find the source code for whiteglass at GitHub:
+[yous](https://github.com/yous) /
+[whiteglass](https://github.com/yous/whiteglass)
 
-Throughout my career, I have delivered meaningful results including developing a massively scalable cloud platform that now serves millions of users globally. I have a proven track record of solving complex technical problems and building robust back-end and front-end solutions. 
+You can find the source code for Jekyll at GitHub:
+[jekyll][jekyll-organization] /
+[jekyll](https://github.com/jekyll/jekyll)
 
-I continuously seek to improve my technical and leadership skills. I'm a creative problem-solver, working well in teams or independently. My goals are to expand my skills as a software engineer and take on technical leadership positions.
+
+[jekyll-organization]: https://github.com/jekyll
