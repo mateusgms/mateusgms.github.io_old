@@ -38,7 +38,7 @@ google_analytics:
 comments: false
 
 # Build settings
-theme: jekyll-whiteglass
+theme: minima
 plugins:
   - jekyll-archives
   - jekyll-paginate
