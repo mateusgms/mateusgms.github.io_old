@@ -1,37 +1,31 @@
-# Site settings
 title: Mateus Gomes
 description: Senior Software Engineer
 baseurl: "" 
 url: "https://mateusgomes.dev"
 email: mateus@mateusgomes.dev
 author: Mateus Gomes
-# Build settings
 markdown: kramdown
 locale: "en-US"
-remote_theme: raviriley/agency-jekyll-theme
+theme: jekyll-whiteglass
 analytics:
   google: G-TX1P3VPGJH
 plugins:
-  - jekyll-feed
-  - jekyll-remote-theme
+  - jekyll-archives
+  - jekyll-paginate
+  - jekyll-sitemap
 
-# Defaults
-defaults:
-  - 
-    scope:
-      path: "" 
-    values:
-      layout: "default"
+permalink: /:year/:month/:day/:title/
+paginate_path: /posts/:num/
+paginate: 5
 
-# Collections
-collections:
-  portfolio:
-
-
-# Sass/SCSS
-sass:
-  sass_dir: _sass
-  style: compressed
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layout: category_archives
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
 
 # Exclude from processing
 exclude:
@@ -46,3 +40,7 @@ exclude:
   - .jekyll-cache/
   - gemfiles/
   - .gitignore
+
+
+
+
