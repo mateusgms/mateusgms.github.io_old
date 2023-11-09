@@ -22,7 +22,7 @@ minima:
 show_excerpts: false # set to true to show excerpts on the homepage
 
 # Build settings
-baseurl: /home
+baseurl: ""
 theme: minima
 plugins:
   - jekyll-feed
