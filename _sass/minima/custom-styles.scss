@@ -1,0 +1,13 @@
+body {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+blockquote {
+    font-size: 0.7rem;
+}
+.sub-footer, .sub-footer select {
+  color: $table-text-color;
+  background: $table-header-bg-color;
+  &::before {
+    border-color: transparent transparent $table-header-bg-color;
+  }
+}
