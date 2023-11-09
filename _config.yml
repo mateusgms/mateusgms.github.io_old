@@ -1,7 +1,7 @@
 title: Mateus Gomes
 lang: en
 url: https://mateusgomes.dev
-google_analytics: 
+google_analytics:
 author:
   name: Mateus Gomes
   email: mateus@mateusgomes.dev
@@ -23,7 +23,7 @@ show_excerpts: false # set to true to show excerpts on the homepage
 
 # Build settings
 baseurl: /home
-remote_theme: jekyll/minima
+theme: jekyll/minima
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
